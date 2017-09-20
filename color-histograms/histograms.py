@@ -6,7 +6,7 @@ import cv2
 
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-i", "--image", required = True, help = "Path to the image")
+ap.add_argument("-i", "--image", required=True, help="Path to the image")
 args = vars(ap.parse_args())
 
 # load the image and show it
@@ -23,5 +23,93 @@ plt.xlabel("Bins")
 plt.ylabel("# of Pixels")
 plt.plot(hist)
 plt.xlim([0, 256])
-plt.show() 
+# plt.show()
 
+# grab the image channels, initialize the tuple of colors,
+# the figure and the flattened feature vector
+chans = cv2.split(image)
+colors = ("b", "g", "r")
+plt.figure()
+plt.title("'Flattened' Color Histogram")
+plt.xlabel("Bins")
+plt.ylabel("# of Pixels")
+features = []
+
+# A solution provided by Adrian Rosebrock
+# # loop over the image channels
+# for (chan, color) in zip(chans, colors):
+# 	# create a histogram for the current channel and
+# 	# concatenate the resulting histograms for each
+# 	# channel
+# 	hist = cv2.calcHist([chan], [0], None, [256], [0, 256])
+# 	features.extend(hist)
+#
+# 	# plot the histogram
+# 	plt.plot(hist, color = color)
+# 	plt.xlim([0, 256])
+# plt.show()
+#
+# # here we are simply showing the dimensionality of the
+# # flattened color histogram 256 bins for each channel
+# # x 3 channels = 768 total values -- in practice, we would
+# # normally not use 256 bins for each channel, a choice
+# # between 32-96 bins are normally used, but this tends
+# # to be application dependent
+# print ("flattened feature vector size: %d" % (np.array(features).flatten().shape))
+# plt.show()
+
+# A unique easier solution provided by me, Zylo117
+for i in range(3):
+    hist = cv2.calcHist([image], [i], None, [256], [0, 256])
+    features.extend(hist)
+    plt.plot(hist, color=colors[i])
+    plt.xlim([0, 256])
+
+print("flattened feature vector size: %d" % np.array(features).flatten().shape)
+# plt.show()
+
+# let's move on to 2D histograms -- I am reducing the
+# number of bins in the histogram from 256 to 32 so we
+# can better visualize the results
+fig = plt.figure()
+
+# plot a 2D color histogram for green and blue
+# add_subplot（131）→ 一行三列第一个图
+ax = fig.add_subplot(131)
+hist = cv2.calcHist([chans[1], chans[0]], [0, 1], None,
+                    [32, 32], [0, 256, 0, 256])
+p = ax.imshow(hist, interpolation="bicubic")
+ax.set_title("2D Color Histogram for Green and Blue")
+plt.colorbar(p)
+
+# plot a 2D color histogram for green and red
+ax = fig.add_subplot(132)
+hist = cv2.calcHist([chans[1], chans[2]], [0, 1], None,
+                    [32, 32], [0, 256, 0, 256])
+p = ax.imshow(hist, interpolation="bicubic")
+ax.set_title("2D Color Histogram for Green and Red")
+plt.colorbar(p)
+
+# plot a 2D color histogram for blue and red
+ax = fig.add_subplot(133)
+hist = cv2.calcHist([chans[0], chans[2]], [0, 1], None,
+                    [32, 32], [0, 256, 0, 256])
+p = ax.imshow(hist, interpolation="bicubic")
+ax.set_title("2D Color Histogram for Blue and Red")
+plt.colorbar(p)
+
+# finally, let's examine the dimensionality of one of
+# the 2D histograms
+print("2D histogram shape: %r, with %d values" % (hist.shape,hist.flatten().shape[0]))
+
+# our 2D histogram could only take into account 2 out
+# of the 3 channels in the image so now let's build a
+# 3D color histogram (utilizing all channels) with 8 bins
+# in each direction -- we can't plot the 3D histogram, but
+# the theory is exactly like that of a 2D histogram, so
+# we'll just show the shape of the histogram
+hist = cv2.calcHist([image], [0, 1, 2],
+                    None, [8, 8, 8], [0, 256, 0, 256, 0, 256])
+print("3D histogram shape: %r, with %d values" % (hist.shape,hist.flatten().shape[0]))
+
+plt.show()
