@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3abadc-b4d2-4c45-af02-ecd1c084dfe2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradients&amp;edge_detection/canny.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradients&amp;edge_detection/auto_canny.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradients&amp;edge_detection/canny.py" afterPath="$PROJECT_DIR$/gradients&amp;edge_detection/canny.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,14 +15,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="canny.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="canny.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/canny.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#508#523#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auto_canny.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/auto_canny.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+              <folding>
+                <element signature="e#32#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="1129" column="34" lean-forward="true" selection-start-line="1129" selection-start-column="34" selection-end-line="1129" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function_base.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/function_base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2438">
+              <caret line="4014" column="4" lean-forward="false" selection-start-line="4014" selection-start-column="4" selection-end-line="4014" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,6 +100,7 @@
         <option value="$PROJECT_DIR$/gradients&amp;edge_detection/sobel_and_laplacian.py" />
         <option value="$PROJECT_DIR$/gradients&amp;edge_detection/image/canny.py" />
         <option value="$PROJECT_DIR$/gradients&amp;edge_detection/canny.py" />
+        <option value="$PROJECT_DIR$/gradients&amp;edge_detection/auto_canny.py" />
       </list>
     </option>
   </component>
@@ -151,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.canny (1)">
+  <component name="RunManager" selected="Python.auto_canny">
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,6 +288,23 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="auto_canny" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gradients&amp;edge_detection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python Learning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradients&amp;edge_detection/auto_canny.py" />
+      <option name="PARAMETERS" value="-i .\image" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="canny (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,23 +336,6 @@
       <module name="Python Learning" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradients&amp;edge_detection/canny.py" />
       <option name="PARAMETERS" value="-i .\image\coin.jpg" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="search" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/image_search_engine" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_search_engine/search.py" />
-      <option name="PARAMETERS" value="-d .\  -i .\index.pickle" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
@@ -340,19 +374,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.search" />
-      <item index="1" class="java.lang.String" itemvalue="Python.sobel_and_laplacian" />
-      <item index="2" class="java.lang.String" itemvalue="Python.search_external" />
-      <item index="3" class="java.lang.String" itemvalue="Python.canny" />
-      <item index="4" class="java.lang.String" itemvalue="Python.canny (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.sobel_and_laplacian" />
+      <item index="1" class="java.lang.String" itemvalue="Python.search_external" />
+      <item index="2" class="java.lang.String" itemvalue="Python.canny" />
+      <item index="3" class="java.lang.String" itemvalue="Python.canny (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.auto_canny" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.canny (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.canny" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sobel_and_laplacian" />
-        <item index="3" class="java.lang.String" itemvalue="Python.search_external" />
-        <item index="4" class="java.lang.String" itemvalue="Python.search" />
+        <item index="0" class="java.lang.String" itemvalue="Python.auto_canny" />
+        <item index="1" class="java.lang.String" itemvalue="Python.canny (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.canny" />
+        <item index="3" class="java.lang.String" itemvalue="Python.sobel_and_laplacian" />
+        <item index="4" class="java.lang.String" itemvalue="Python.search_external" />
       </list>
     </recent_temporary>
   </component>
@@ -397,8 +431,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/color-histograms/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/color-histograms/histograms.py" />
     <entry file="file://$PROJECT_DIR$/color-histograms/grant.jpg" />
     <entry file="file://C:/Program Files/Python36/Lib/argparse.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -611,13 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="541" column="28" lean-forward="true" selection-start-line="541" selection-start-column="28" selection-end-line="541" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image_search_engine/pyimagesearch/searcher.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
@@ -672,10 +697,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/canny.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#508#523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="1129" column="34" lean-forward="true" selection-start-line="1129" selection-start-column="34" selection-end-line="1129" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2438">
+          <caret line="4014" column="4" lean-forward="false" selection-start-line="4014" selection-start-column="4" selection-end-line="4014" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/auto_canny.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+          <folding>
+            <element signature="e#32#50#0" expanded="true" />
           </folding>
         </state>
       </provider>

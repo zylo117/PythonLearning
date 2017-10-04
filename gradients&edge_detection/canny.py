@@ -1,4 +1,11 @@
-import numpy as np
+# The Canny edge detection algorithm can be broken down into 5 steps:
+#
+# Step 1: Smooth the image using a Gaussian filter to remove high frequency noise.
+# Step 2: Compute the gradient intensity representations of the image.
+# Step 3: Apply non-maximum suppression to remove “false” responses to to edge detection.
+# Step 4: Apply thresholding using a lower and upper boundary on the gradient values.
+# Step 5: Track edges using hysteresis by suppressing weak edges that are not connected to strong edges.
+
 import argparse
 import cv2
 
