@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3abadc-b4d2-4c45-af02-ecd1c084dfe2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradients&amp;edge_detection/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradients&amp;edge_detection/sobel_and_laplacian.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradients&amp;edge_detection/canny.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_search_engine/search_external.py" afterPath="$PROJECT_DIR$/image_search_engine/search_external.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sobel_and_laplacian.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/sobel_and_laplacian.py">
+      <file leaf-file-name="canny.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/canny.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            <state relative-caret-position="306">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -29,34 +26,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="multiarray.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/numpy/core/multiarray.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="2745" column="8" lean-forward="false" selection-start-line="2745" selection-start-column="8" selection-end-line="2745" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cv2.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/cv2/cv2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-461">
-              <caret line="7506" column="4" lean-forward="false" selection-start-line="7506" selection-start-column="4" selection-end-line="7506" selection-end-column="4" />
+            <state relative-caret-position="212">
+              <caret line="3027" column="17" lean-forward="false" selection-start-line="3027" selection-start-column="16" selection-end-line="3027" selection-end-column="57" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search_external.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image_search_engine/search_external.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="57" column="36" lean-forward="true" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
-              <folding>
-                <element signature="e#236#287#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -90,6 +65,8 @@
         <option value="$PROJECT_DIR$/image_search_engine/search.py" />
         <option value="$PROJECT_DIR$/image_search_engine/search_external.py" />
         <option value="$PROJECT_DIR$/gradients&amp;edge_detection/sobel_and_laplacian.py" />
+        <option value="$PROJECT_DIR$/gradients&amp;edge_detection/image/canny.py" />
+        <option value="$PROJECT_DIR$/gradients&amp;edge_detection/canny.py" />
       </list>
     </option>
   </component>
@@ -133,6 +110,12 @@
             <path>
               <item name="Histogram" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="gradients&amp;edge_detection" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Histogram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_learning" type="462c0819:PsiDirectoryNode" />
               <item name="image_search_engine" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -148,6 +131,9 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\python\python_learning\gradients&amp;edge_detection" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\python\python_learning\image_search_engine" />
       <recent name="D:\workspace\python\python_learning\color-histograms" />
@@ -165,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sobel_and_laplacian">
+  <component name="RunManager" selected="Python.canny (1)">
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,37 +254,37 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="histograms (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="canny (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/color_histograms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gradients&amp;edge_detection" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_histograms/histograms.py" />
-      <option name="PARAMETERS" value="-i grant.jpg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradients&amp;edge_detection/canny.py" />
+      <option name="PARAMETERS" value="-i .\image\coin.jpg" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="canny" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/image_search_engine" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gradients&amp;edge_detection/image" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_search_engine/index.py" />
-      <option name="PARAMETERS" value="-d .\images  -i .\index.pickle" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradients&amp;edge_detection/canny.py" />
+      <option name="PARAMETERS" value="-i .\image\coin.jpg" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
@@ -354,19 +340,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.histograms (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.index" />
-      <item index="2" class="java.lang.String" itemvalue="Python.search" />
-      <item index="3" class="java.lang.String" itemvalue="Python.sobel_and_laplacian" />
-      <item index="4" class="java.lang.String" itemvalue="Python.search_external" />
+      <item index="0" class="java.lang.String" itemvalue="Python.search" />
+      <item index="1" class="java.lang.String" itemvalue="Python.sobel_and_laplacian" />
+      <item index="2" class="java.lang.String" itemvalue="Python.search_external" />
+      <item index="3" class="java.lang.String" itemvalue="Python.canny" />
+      <item index="4" class="java.lang.String" itemvalue="Python.canny (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.sobel_and_laplacian" />
-        <item index="1" class="java.lang.String" itemvalue="Python.search_external" />
-        <item index="2" class="java.lang.String" itemvalue="Python.search" />
-        <item index="3" class="java.lang.String" itemvalue="Python.index" />
-        <item index="4" class="java.lang.String" itemvalue="Python.histograms (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.canny (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.canny" />
+        <item index="2" class="java.lang.String" itemvalue="Python.sobel_and_laplacian" />
+        <item index="3" class="java.lang.String" itemvalue="Python.search_external" />
+        <item index="4" class="java.lang.String" itemvalue="Python.search" />
       </list>
     </recent_temporary>
   </component>
@@ -375,10 +361,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26326004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26326004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34072024" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.275" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -405,18 +392,11 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Program Files/Python36/Lib/argparse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23310">
-          <caret line="1302" column="8" lean-forward="false" selection-start-line="1302" selection-start-column="8" selection-end-line="1302" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/color-histograms/__init__.py" />
     <entry file="file://$PROJECT_DIR$/color-histograms/histograms.py" />
     <entry file="file://$PROJECT_DIR$/color-histograms/grant.jpg" />
@@ -646,14 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/cv2/cv2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-461">
-          <caret line="7506" column="4" lean-forward="false" selection-start-line="7506" selection-start-column="4" selection-end-line="7506" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image_search_engine/search_external.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -661,14 +633,6 @@
           <folding>
             <element signature="e#236#287#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/numpy/core/multiarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="2745" column="8" lean-forward="false" selection-start-line="2745" selection-start-column="8" selection-end-line="2745" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,10 +644,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/numpy/core/multiarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="2745" column="8" lean-forward="false" selection-start-line="2745" selection-start-column="8" selection-end-line="2745" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/sobel_and_laplacian.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/cv2/cv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="3027" column="17" lean-forward="false" selection-start-line="3027" selection-start-column="16" selection-end-line="3027" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/canny.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
