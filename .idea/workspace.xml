@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3abadc-b4d2-4c45-af02-ecd1c084dfe2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradients&amp;edge_detection/auto_canny.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradients&amp;edge_detection/counting_coins.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image_search_engine/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Python Learning.iml" afterPath="$PROJECT_DIR$/.idea/Python Learning.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradients&amp;edge_detection/canny.py" afterPath="$PROJECT_DIR$/gradients&amp;edge_detection/canny.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,25 +18,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="canny.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/canny.py">
+      <file leaf-file-name="auto_canny.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/auto_canny.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
-                <element signature="e#508#523#0" expanded="true" />
+                <element signature="e#32#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auto_canny.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/auto_canny.py">
+      <file leaf-file-name="search.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image_search_engine/search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            <state relative-caret-position="180">
+              <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="searcher.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image_search_engine/pyimagesearch/searcher.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="828">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="counting_coins.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/counting_coins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="666">
+              <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
               <folding>
-                <element signature="e#32#50#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,8 +75,38 @@
       <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/builtins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="1129" column="34" lean-forward="true" selection-start-line="1129" selection-start-column="34" selection-end-line="1129" selection-end-column="34" />
+            <state relative-caret-position="164">
+              <caret line="1174" column="8" lean-forward="false" selection-start-line="1174" selection-start-column="8" selection-end-line="1174" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_external.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image_search_engine/search_external.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="53" column="48" lean-forward="true" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cv2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/cv2/cv2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="3131" column="26" lean-forward="true" selection-start-line="3131" selection-start-column="26" selection-end-line="3131" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="multiarray.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/numpy/core/multiarray.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="2227" column="17" lean-forward="false" selection-start-line="2227" selection-start-column="17" selection-end-line="2227" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -54,16 +117,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2438">
               <caret line="4014" column="4" lean-forward="false" selection-start-line="4014" selection-start-column="4" selection-end-line="4014" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cv2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/cv2/cv2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="3027" column="17" lean-forward="false" selection-start-line="3027" selection-start-column="16" selection-end-line="3027" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -95,12 +148,13 @@
         <option value="$PROJECT_DIR$/image_search_engine/pyimagesearch/rgbhistogram.py" />
         <option value="$PROJECT_DIR$/image_search_engine/index.py" />
         <option value="$PROJECT_DIR$/image_search_engine/pyimagesearch/searcher.py" />
-        <option value="$PROJECT_DIR$/image_search_engine/search.py" />
         <option value="$PROJECT_DIR$/image_search_engine/search_external.py" />
         <option value="$PROJECT_DIR$/gradients&amp;edge_detection/sobel_and_laplacian.py" />
         <option value="$PROJECT_DIR$/gradients&amp;edge_detection/image/canny.py" />
         <option value="$PROJECT_DIR$/gradients&amp;edge_detection/canny.py" />
         <option value="$PROJECT_DIR$/gradients&amp;edge_detection/auto_canny.py" />
+        <option value="$PROJECT_DIR$/image_search_engine/search.py" />
+        <option value="$PROJECT_DIR$/gradients&amp;edge_detection/counting_coins.py" />
       </list>
     </option>
   </component>
@@ -109,6 +163,25 @@
     <option name="y" value="-12" />
     <option name="width" value="898" />
     <option name="height" value="493" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyCompatibilityInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -144,12 +217,6 @@
             <path>
               <item name="Histogram" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="gradients&amp;edge_detection" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Histogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_learning" type="462c0819:PsiDirectoryNode" />
               <item name="image_search_engine" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -166,6 +233,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\python\python_learning\image_search_engine\pyimagesearch" />
+      <recent name="D:\workspace\python\python_learning\image_search_engine" />
       <recent name="D:\workspace\python\python_learning\gradients&amp;edge_detection" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -185,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.auto_canny">
+  <component name="RunManager" selected="Python.counting_coins">
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,24 +408,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="search_external" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/image_search_engine" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_search_engine/search_external.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="sobel_and_laplacian" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="counting_coins" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -368,30 +420,50 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradients&amp;edge_detection/sobel_and_laplacian.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradients&amp;edge_detection/counting_coins.py" />
       <option name="PARAMETERS" value="-i .\image\coin.jpg" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/image_search_engine" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python Learning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_search_engine/search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.sobel_and_laplacian" />
-      <item index="1" class="java.lang.String" itemvalue="Python.search_external" />
-      <item index="2" class="java.lang.String" itemvalue="Python.canny" />
-      <item index="3" class="java.lang.String" itemvalue="Python.canny (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.auto_canny" />
+      <item index="0" class="java.lang.String" itemvalue="Python.canny" />
+      <item index="1" class="java.lang.String" itemvalue="Python.canny (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.auto_canny" />
+      <item index="3" class="java.lang.String" itemvalue="Python.search" />
+      <item index="4" class="java.lang.String" itemvalue="Python.counting_coins" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.auto_canny" />
-        <item index="1" class="java.lang.String" itemvalue="Python.canny (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.canny" />
-        <item index="3" class="java.lang.String" itemvalue="Python.sobel_and_laplacian" />
-        <item index="4" class="java.lang.String" itemvalue="Python.search_external" />
+        <item index="0" class="java.lang.String" itemvalue="Python.counting_coins" />
+        <item index="1" class="java.lang.String" itemvalue="Python.search" />
+        <item index="2" class="java.lang.String" itemvalue="Python.auto_canny" />
+        <item index="3" class="java.lang.String" itemvalue="Python.canny (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.canny" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -399,7 +471,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26326004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34072024" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.275" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -426,21 +498,11 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/color-histograms/grant.jpg" />
-    <entry file="file://C:/Program Files/Python36/Lib/argparse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23310">
-          <caret line="1302" column="8" lean-forward="false" selection-start-line="1302" selection-start-column="8" selection-end-line="1302" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color-histograms/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/color-histograms/histograms.py" />
     <entry file="file://$PROJECT_DIR$/color-histograms/his.py" />
     <entry file="file://$PROJECT_DIR$/color-histograms/grant.jpg" />
     <entry file="file://$PROJECT_DIR$/color-histograms/__init__.py" />
@@ -633,12 +695,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image_search_engine/search.py">
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/sobel_and_laplacian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#191#234#0" expanded="false" />
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_search_engine/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_search_engine/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/canny.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#508#523#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -651,17 +747,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image_search_engine/search_external.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="57" column="36" lean-forward="true" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
-          <folding>
-            <element signature="e#236#287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/__init__.py">
+    <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -669,47 +755,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/numpy/core/multiarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="2745" column="8" lean-forward="false" selection-start-line="2745" selection-start-column="8" selection-end-line="2745" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/sobel_and_laplacian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/cv2/cv2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="3027" column="17" lean-forward="false" selection-start-line="3027" selection-start-column="16" selection-end-line="3027" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/canny.py">
+    <entry file="file://$PROJECT_DIR$/image_search_engine/search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#508#523#0" expanded="true" />
-          </folding>
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/builtins.py">
+    <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/auto_canny.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="1129" column="34" lean-forward="true" selection-start-line="1129" selection-start-column="34" selection-end-line="1129" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="126">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#32#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -721,12 +781,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/auto_canny.py">
+    <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/numpy/core/multiarray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="164">
+          <caret line="2227" column="17" lean-forward="false" selection-start-line="2227" selection-start-column="17" selection-end-line="2227" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="1174" column="8" lean-forward="false" selection-start-line="1174" selection-start-column="8" selection-end-line="1174" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_search_engine/search_external.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="53" column="48" lean-forward="true" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/cv2/cv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="3131" column="26" lean-forward="true" selection-start-line="3131" selection-start-column="26" selection-end-line="3131" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/counting_coins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
           <folding>
-            <element signature="e#32#50#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
