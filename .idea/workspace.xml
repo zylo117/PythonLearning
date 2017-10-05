@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3abadc-b4d2-4c45-af02-ecd1c084dfe2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Thresholding/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Thresholding/otsu_and_riddler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Python Learning.iml" afterPath="$PROJECT_DIR$/.idea/Python Learning.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradients&amp;edge_detection/counting_coins.py" afterPath="$PROJECT_DIR$/gradients&amp;edge_detection/counting_coins.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,30 +17,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="auto_canny.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/auto_canny.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding>
-                <element signature="e#32#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image_search_engine/search.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/__init__.py">
+      <file leaf-file-name="otsu_and_riddler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Thresholding/otsu_and_riddler.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -45,21 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searcher.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image_search_engine/pyimagesearch/searcher.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="counting_coins.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/counting_coins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
-              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="200">
+              <caret line="18" column="76" lean-forward="false" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -67,51 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="1174" column="8" lean-forward="false" selection-start-line="1174" selection-start-column="8" selection-end-line="1174" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search_external.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image_search_engine/search_external.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="53" column="48" lean-forward="true" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cv2.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/cv2/cv2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="10266" column="4" lean-forward="false" selection-start-line="10266" selection-start-column="4" selection-end-line="10266" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="multiarray.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/numpy/core/multiarray.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="2227" column="17" lean-forward="false" selection-start-line="2227" selection-start-column="17" selection-end-line="2227" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function_base.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/function_base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2438">
-              <caret line="4014" column="4" lean-forward="false" selection-start-line="4014" selection-start-column="4" selection-end-line="4014" selection-end-column="4" />
+            <state relative-caret-position="284">
+              <caret line="10277" column="47" lean-forward="false" selection-start-line="10277" selection-start-column="44" selection-end-line="10277" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -130,6 +62,7 @@
     <findStrings>
       <find>cP</find>
       <find>dst</find>
+      <find>ots</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,6 +82,7 @@
         <option value="$PROJECT_DIR$/gradients&amp;edge_detection/canny.py" />
         <option value="$PROJECT_DIR$/gradients&amp;edge_detection/auto_canny.py" />
         <option value="$PROJECT_DIR$/image_search_engine/search.py" />
+        <option value="$PROJECT_DIR$/Thresholding/otsu_and_riddler.py" />
         <option value="$PROJECT_DIR$/gradients&amp;edge_detection/counting_coins.py" />
       </list>
     </option>
@@ -212,7 +146,7 @@
             <path>
               <item name="Histogram" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="image_search_engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Thresholding" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,7 +155,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="ter&#9;null&#9;null" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -494,16 +428,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/gradients&amp;edge_detection/counting_coins.py</url>
-          <line>18</line>
+          <line>19</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/color-histograms/his.py" />
     <entry file="file://$PROJECT_DIR$/color-histograms/grant.jpg" />
     <entry file="file://$PROJECT_DIR$/color-histograms/__init__.py" />
     <entry file="file://C:/Program Files/Python36/Lib/email/_header_value_parser.py">
@@ -758,9 +691,9 @@
     <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/auto_canny.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <element signature="e#32#50#0" expanded="true" />
+            <element signature="e#32#50#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -792,7 +725,7 @@
     <entry file="file://$PROJECT_DIR$/image_search_engine/search_external.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
-          <caret line="53" column="48" lean-forward="true" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+          <caret line="53" column="48" lean-forward="false" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -805,18 +738,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Thresholding/otsu_and_riddler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/cv2/cv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="10266" column="4" lean-forward="false" selection-start-line="10266" selection-start-column="4" selection-end-line="10266" selection-end-column="4" />
+        <state relative-caret-position="284">
+          <caret line="10277" column="47" lean-forward="false" selection-start-line="10277" selection-start-column="44" selection-end-line="10277" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/counting_coins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="200">
+          <caret line="18" column="76" lean-forward="false" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>

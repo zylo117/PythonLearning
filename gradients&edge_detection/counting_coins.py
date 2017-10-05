@@ -14,8 +14,9 @@ blurred = cv2.GaussianBlur(gray, (11, 11), 0)
 cv2.imshow("Image", image)
 
 # 加入二值化
-# th_image = cv2.adaptiveThreshold(blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 11, 2)
-retval, th_image = cv2.threshold(blurred, 225, 255, cv2.THRESH_BINARY_INV)
+# th_image = cv2.adaptiveThreshold(blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 11, 2)     # 自适应二值化
+# retval, th_image = cv2.threshold(blurred, 225, 255, cv2.THRESH_BINARY_INV)        # 定值二值化
+retval, th_image = cv2.threshold(blurred, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)      # OTSU最大类间方差阈值化（自动）
 cv2.imshow("Theshold", th_image)
 
 # 抠出硬币图
