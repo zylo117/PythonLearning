@@ -13,9 +13,18 @@ gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 blurred = cv2.GaussianBlur(gray, (11, 11), 0)
 cv2.imshow("Image", image)
 
-edged = auto_canny.auto_canny(blurred, 0.8)
+# 加入二值化
+# th_image = cv2.adaptiveThreshold(blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 11, 2)
+retval, th_image = cv2.threshold(blurred, 225, 255, cv2.THRESH_BINARY_INV)
+cv2.imshow("Theshold", th_image)
+
+# 抠出硬币图
+# new_image = cv2.bitwise_and(image, image, mask=th_image)
+# cv2.imshow("Remove", new_image)
+
+edged = auto_canny.auto_canny(th_image)
 cv2.imshow("Edged", edged)
-(_, cnts, _) = cv2.findContours(edged.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+(_, cnts, _) = cv2.findContours(th_image.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
 print("I count {} coins in this image".format(len(cnts)))
 
