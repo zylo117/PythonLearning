@@ -1,8 +1,8 @@
-from __future__ import print_function
 import numpy as np
 import argparse
 import cv2
 import auto_canny
+import otsu_and_riddler_calvard as orc
 
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True, help="Path to the image")
@@ -17,6 +17,8 @@ cv2.imshow("Image", image)
 # th_image = cv2.adaptiveThreshold(blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 11, 2)     # 自适应二值化
 # retval, th_image = cv2.threshold(blurred, 225, 255, cv2.THRESH_BINARY_INV)        # 定值二值化
 retval, th_image = cv2.threshold(blurred, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)      # OTSU最大类间方差阈值化（自动）
+# retval, th_image = orc.otsu(blurred)      #mahotas的OTSU算法
+# retval, th_image = orc.rc(blurred)      # mahotas的Riddler-Calvard算法
 cv2.imshow("Theshold", th_image)
 
 # 抠出硬币图
