@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3abadc-b4d2-4c45-af02-ecd1c084dfe2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradients&amp;edge_detection/watershed/image/watershed_coins_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thresholding/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradients&amp;edge_detection/watershed/watershed.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Python Learning.iml" afterPath="$PROJECT_DIR$/.idea/Python Learning.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradients&amp;edge_detection/counting_coins.py" afterPath="$PROJECT_DIR$/gradients&amp;edge_detection/counting_coins.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Thresholding/__init__.py" afterPath="$PROJECT_DIR$/gradients&amp;edge_detection/watershed/contour_only.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Thresholding/image/coin.jpg" afterPath="$PROJECT_DIR$/thresholding/image/coin.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Thresholding/otsu_and_riddler_calvard.py" afterPath="$PROJECT_DIR$/thresholding/otsu_and_riddler_calvard.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradients&amp;edge_detection/watershed/contour_only.py" afterPath="$PROJECT_DIR$/gradients&amp;edge_detection/watershed/contour_only.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,60 +17,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="otsu_and_riddler_calvard.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thresholding/otsu_and_riddler_calvard.py">
+      <file leaf-file-name="watershed.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/watershed/watershed.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="269">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#55#102#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auto_canny.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/auto_canny.py">
+      <file leaf-file-name="pyplot.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python36/Lib/site-packages/matplotlib/pyplot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="7" />
+            <state relative-caret-position="216">
+              <caret line="1670" column="4" lean-forward="false" selection-start-line="1670" selection-start-column="4" selection-end-line="1670" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="histograms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/color_histograms/histograms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="80" column="11" lean-forward="true" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
               <folding>
-                <element signature="e#32#50#0" expanded="true" />
+                <element signature="e#32#68#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="counting_coins.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/counting_coins.py">
+      <file leaf-file-name="peak.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python36/Lib/site-packages/skimage/feature/peak.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="172">
+              <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contour_only.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contour_only.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/watershed/contour_only.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            <state relative-caret-position="294">
+              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cv2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/cv2/cv2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="10266" column="16" lean-forward="true" selection-start-line="10266" selection-start-column="16" selection-end-line="10266" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -117,14 +110,13 @@
         <option value="$PROJECT_DIR$/Thresholding/otsu_and_riddler_calvard.py" />
         <option value="$PROJECT_DIR$/gradients&amp;edge_detection/counting_coins.py" />
         <option value="$PROJECT_DIR$/gradients&amp;edge_detection/watershed/contour_only.py" />
+        <option value="$PROJECT_DIR$/gradients&amp;edge_detection/watershed/watershed.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="512" />
-    <option name="y" value="-11" />
-    <option name="width" value="898" />
-    <option name="height" value="420" />
+    <option name="width" value="1314" />
+    <option name="height" value="574" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -170,37 +162,24 @@
         <subPane>
           <expand>
             <path>
-              <item name="Histogram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_learning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Histogram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="color_histograms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_learning" type="462c0819:PsiDirectoryNode" />
               <item name="gradients&amp;edge_detection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Histogram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_learning" type="462c0819:PsiDirectoryNode" />
               <item name="gradients&amp;edge_detection" type="462c0819:PsiDirectoryNode" />
               <item name="watershed" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Histogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="gradients&amp;edge_detection" type="462c0819:PsiDirectoryNode" />
-              <item name="watershed" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Histogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="thresholding" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Histogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="thresholding" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,7 +189,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="ter&#9;null&#9;null" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -241,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.contour_only">
+  <component name="RunManager" selected="Python.watershed">
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -360,23 +339,6 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="auto_canny" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gradients&amp;edge_detection" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradients&amp;edge_detection/auto_canny.py" />
-      <option name="PARAMETERS" value="-i .\image" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="contour_only" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -411,6 +373,23 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="histograms" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/color_histograms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python Learning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_histograms/histograms.py" />
+      <option name="PARAMETERS" value="-i .\grant.jpg" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="otsu_and_riddler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -428,37 +407,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="watershed" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/image_search_engine" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gradients&amp;edge_detection/watershed" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_search_engine/search.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradients&amp;edge_detection/watershed/watershed.py" />
+      <option name="PARAMETERS" value="-i .\image\pills_02.png" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.auto_canny" />
-      <item index="1" class="java.lang.String" itemvalue="Python.search" />
-      <item index="2" class="java.lang.String" itemvalue="Python.counting_coins" />
-      <item index="3" class="java.lang.String" itemvalue="Python.otsu_and_riddler" />
-      <item index="4" class="java.lang.String" itemvalue="Python.contour_only" />
+      <item index="0" class="java.lang.String" itemvalue="Python.counting_coins" />
+      <item index="1" class="java.lang.String" itemvalue="Python.otsu_and_riddler" />
+      <item index="2" class="java.lang.String" itemvalue="Python.contour_only" />
+      <item index="3" class="java.lang.String" itemvalue="Python.watershed" />
+      <item index="4" class="java.lang.String" itemvalue="Python.histograms" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.contour_only" />
-        <item index="1" class="java.lang.String" itemvalue="Python.counting_coins" />
-        <item index="2" class="java.lang.String" itemvalue="Python.otsu_and_riddler" />
-        <item index="3" class="java.lang.String" itemvalue="Python.search" />
-        <item index="4" class="java.lang.String" itemvalue="Python.auto_canny" />
+        <item index="0" class="java.lang.String" itemvalue="Python.watershed" />
+        <item index="1" class="java.lang.String" itemvalue="Python.histograms" />
+        <item index="2" class="java.lang.String" itemvalue="Python.contour_only" />
+        <item index="3" class="java.lang.String" itemvalue="Python.counting_coins" />
+        <item index="4" class="java.lang.String" itemvalue="Python.otsu_and_riddler" />
       </list>
     </recent_temporary>
   </component>
@@ -472,8 +451,8 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19663648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27234638" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.193125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26280323" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34072024" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39944133" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -501,89 +480,11 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Program Files/Python36/Lib/email/_header_value_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="1238" column="36" lean-forward="true" selection-start-line="1238" selection-start-column="36" selection-end-line="1238" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="433" column="30" lean-forward="true" selection-start-line="433" selection-start-column="30" selection-end-line="433" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/argparse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1302" column="8" lean-forward="false" selection-start-line="1302" selection-start-column="8" selection-end-line="1302" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color-histograms/histograms.py" />
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/matplotlib/axes/_axes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="5033" column="73" lean-forward="false" selection-start-line="5033" selection-start-column="66" selection-end-line="5033" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/matplotlib/figure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="954" column="0" lean-forward="false" selection-start-line="954" selection-start-column="0" selection-end-line="954" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_search_engine/images/Dol-Guldur-001.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_search_engine/images/Dol-Guldur-002.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_search_engine/images/Dol-Guldur-003.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_search_engine/images/Dol-Guldur-004.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_search_engine/images/Dol-Guldur-005.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_search_engine/images/Goblin-001.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_search_engine/images/Mordor-001.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image_search_engine/images/Golbin-005.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -649,28 +550,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/ma/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="6272" column="8" lean-forward="false" selection-start-line="6272" selection-start-column="8" selection-end-line="6272" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/ma/core.py" />
     <entry file="file://$PROJECT_DIR$/image_search_engine/index.cpickle" />
     <entry file="file://$PROJECT_DIR$/image_search_engine/pyimagesearch/rgbhistogram.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_histograms/histograms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-          <folding>
-            <element signature="e#32#68#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -688,13 +573,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/__init__.py" />
     <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/sobel_and_laplacian.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -737,13 +616,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/function_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2438">
-          <caret line="4014" column="4" lean-forward="false" selection-start-line="4014" selection-start-column="4" selection-end-line="4014" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/function_base.py" />
     <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/numpy/core/multiarray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -781,48 +654,153 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/auto_canny.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
+        <state relative-caret-position="357">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="7" />
           <folding>
-            <element signature="e#32#50#0" expanded="true" />
+            <element signature="e#32#50#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thresholding/otsu_and_riddler_calvard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="441">
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/counting_coins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="273">
+          <caret line="17" column="91" lean-forward="false" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/cv2/cv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="10266" column="16" lean-forward="true" selection-start-line="10266" selection-start-column="16" selection-end-line="10266" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="-461">
+          <caret line="8664" column="4" lean-forward="false" selection-start-line="8664" selection-start-column="4" selection-end-line="8664" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/scipy/ndimage/filters.py" />
+    <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/scipy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/skimage/feature/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/skimage/feature/_canny.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/scipy/ndimage/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/scipy/misc/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/scipy/linalg/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/scipy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/scipy/linalg/blas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="195" column="31" lean-forward="false" selection-start-line="195" selection-start-column="25" selection-end-line="195" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/watershed/contour_only.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        <state relative-caret-position="294">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/scipy/ndimage/morphology.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="1955" column="18" lean-forward="true" selection-start-line="1955" selection-start-column="18" selection-end-line="1955" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/skimage/feature/peak.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="4995" column="8" lean-forward="false" selection-start-line="4995" selection-start-column="8" selection-end-line="4995" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_histograms/histograms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="80" column="11" lean-forward="true" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
+          <folding>
+            <element signature="e#32#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="1670" column="4" lean-forward="false" selection-start-line="1670" selection-start-column="4" selection-end-line="1670" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/watershed/watershed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#55#102#0" expanded="true" />
           </folding>
         </state>
       </provider>

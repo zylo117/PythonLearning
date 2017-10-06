@@ -1,7 +1,6 @@
 import argparse
 import cv2
 
-
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True, help="Path to the image")
@@ -17,6 +16,20 @@ cv2.imshow("Pyramid", shifted)
 # convert the mean shift image to grayscale, then apply
 # Otsu's thresholding
 gray = cv2.cvtColor(shifted, cv2.COLOR_BGR2GRAY)
-_, thresh = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
+thresh = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]  # [1]为Python数组Index调取值
 cv2.imshow("Thresh", thresh)
+
+# find contours in the thresholded image
+cnts = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[-2]
+print("[INFO] {} unique contours found".format(len(cnts)))
+
+# loop over the contours
+for (i, c) in enumerate(cnts):
+    # draw the contour
+    ((x, y), _) = cv2.minEnclosingCircle(c)
+    cv2.putText(image, "#{}".format(i + 1), ((int(x) - 10), (int(y))), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 255), 2)
+    cv2.drawContours(image, [c], -1, (0, 255, 0), 2)
+
+# show the output image
+cv2.imshow("Image", image)
 cv2.waitKey(0)
