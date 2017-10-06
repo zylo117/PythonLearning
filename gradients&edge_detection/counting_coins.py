@@ -16,7 +16,7 @@ cv2.imshow("Image", image)
 # 加入二值化
 # th_image = cv2.adaptiveThreshold(blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 11, 2)     # 自适应二值化
 # retval, th_image = cv2.threshold(blurred, 225, 255, cv2.THRESH_BINARY_INV)        # 定值二值化
-retval, th_image = cv2.threshold(blurred, 0, 255, cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)  # OTSU最大类间方差阈值化（自动）
+retval, th_image = cv2.threshold(blurred, 0, 255, cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)      # OTSU最大类间方差阈值化（自动）
 # retval, th_image = orc.otsu(blurred)      #mahotas的OTSU算法
 # retval, th_image = orc.rc(blurred)      # mahotas的Riddler-Calvard算法
 cv2.imshow("Theshold", th_image)
@@ -44,7 +44,7 @@ for (i, c) in enumerate(cnts):
 
     mask = np.zeros(image.shape[:2], dtype="uint8")
     ((centerX, centerY), radius) = cv2.minEnclosingCircle(c)
-    cv2.circle(mask, (int(centerX), int(centerY)), int(radius), 255, -1)
+    cv2.circle(mask,(int(centerX), int(centerY)), int(radius), 255, -1)
     mask = mask[y:y + h, x:x + w]
     cv2.imshow("Masked Coin", cv2.bitwise_and(coin, coin, mask=mask))
     cv2.waitKey(0)
