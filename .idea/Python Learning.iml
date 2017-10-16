@@ -6,6 +6,12 @@
       <sourceFolder url="file://$MODULE_DIR$/gradients&amp;edge_detection" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/thresholding" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/gradients&amp;edge_detection/watershed" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deep_learning_cv" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deep_learning_cv/obiect_detectioin/real-time" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deep_learning_cv/obiect_detectioin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deep_learning_cv/obiect_detectioin/static" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deep_learning_cv/classification" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/color_histograms" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
