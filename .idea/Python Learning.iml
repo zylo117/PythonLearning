@@ -12,6 +12,9 @@
       <sourceFolder url="file://$MODULE_DIR$/deep_learning_cv/obiect_detectioin/static" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/deep_learning_cv/classification" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/color_histograms" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pokedex" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pokedex/pokedex-scrape" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pokedex/pokedex-scrape/sprites" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
