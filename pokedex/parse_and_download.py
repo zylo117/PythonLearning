@@ -16,7 +16,7 @@ args = vars(ap.parse_args())
 
 # construct the soup and initialize the list of pokemon
 # names
-soup = BeautifulSoup(open(args["pokemon_list"]).read())
+soup = BeautifulSoup(open(args["pokemon_list"], "rb").read())
 names = []
 
 # loop over all link elements
