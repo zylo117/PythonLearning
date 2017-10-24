@@ -1,4 +1,4 @@
-# import the necessary package
+# import the necessary packages
 import mahotas
 
 

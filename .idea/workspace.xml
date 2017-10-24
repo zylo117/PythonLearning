@@ -2,161 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3abadc-b4d2-4c45-af02-ecd1c084dfe2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pokedex/descriptor/zernikemoments.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/parse_and_download.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/pokemon_list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/abra.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/aerodactyl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/alakazam.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/arbok.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/arcanine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/articuno.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/beedrill.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/bellsprout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/blastoise.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/bulbasaur.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/butterfree.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/caterpie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/chansey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/charizard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/charmander.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/charmeleon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/clefable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/clefairy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/cloyster.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/cubone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/dewgong.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/diglett.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/ditto.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/dodrio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/doduo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/dragonair.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/dragonite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/dratini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/drowzee.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/dugtrio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/eevee.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/ekans.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/electabuzz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/electrode.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/exeggcute.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/exeggutor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/farfetch'd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/fearow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/flareon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/gastly.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/gengar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/geodude.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/gloom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/golbat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/goldeen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/golduck.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/golem.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/graveler.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/grimer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/growlithe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/gyarados.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/haunter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/hitmonchan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/hitmonlee.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/horsea.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/hypno.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/ivysaur.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/jigglypuff.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/jolteon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/jynx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/kabuto.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/kabutops.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/kadabra.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/kakuna.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/kangaskhan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/kingler.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/koffing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/krabby.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/lapras.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/lickitung.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/machamp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/machoke.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/machop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/magikarp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/magmar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/magnemite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/magneton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/mankey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/marowak.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/meowth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/metapod.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/mew.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/mewtwo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/moltres.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/mr. mime.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/muk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/nidoking.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/nidoqueen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/nidoran♀.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/nidoran♂.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/nidorina.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/nidorino.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/ninetales.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/oddish.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/omanyte.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/omastar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/onix.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/paras.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/parasect.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/persian.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/pidgeot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/pidgeotto.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/pidgey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/pikachu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/pinsir.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/poliwag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/poliwhirl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/poliwrath.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/ponyta.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/porygon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/primeape.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/psyduck.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/raichu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/rapidash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/raticate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/rattata.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/rhydon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/rhyhorn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/sandshrew.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/sandslash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/scyther.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/seadra.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/seaking.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/seel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/shellder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/slowbro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/slowpoke.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/snorlax.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/spearow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/squirtle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/starmie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/staryu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/tangela.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/tauros.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/tentacool.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/tentacruel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/vaporeon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/venomoth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/venonat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/venusaur.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/victreebel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/vileplume.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/voltorb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/vulpix.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/wartortle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/weedle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/weepinbell.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/weezing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/wigglytuff.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/zapdos.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/scrape/sprites/zubat.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pokedex/index.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/sprites/nidoran♀.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pokedex/sprites/nidoran♂.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Python Learning.iml" afterPath="$PROJECT_DIR$/.idea/Python Learning.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pokedex/descriptor/zernikemoments.py" afterPath="$PROJECT_DIR$/pokedex/descriptor/zernikemoments.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -170,18 +21,60 @@
       <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/builtins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="0">
               <caret line="339" column="4" lean-forward="false" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zernikemoments.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="zernikemoments.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pokedex/descriptor/zernikemoments.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parse_and_download.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pokedex/parse_and_download.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pokedex/index.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="610">
+              <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pokedex/descriptor/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cv2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/cv2/cv2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="4679" column="4" lean-forward="false" selection-start-line="4679" selection-start-column="4" selection-end-line="4679" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -233,14 +126,16 @@
         <option value="$PROJECT_DIR$/pokedex/scrape/parse_and_download.py" />
         <option value="$PROJECT_DIR$/pokedex/descriptor/zernikedescriptor.py" />
         <option value="$PROJECT_DIR$/pokedex/descriptor/zernikemoments.py" />
+        <option value="$PROJECT_DIR$/pokedex/parse_and_download.py" />
+        <option value="$PROJECT_DIR$/pokedex/index.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-1659" />
+    <option name="y" value="163" />
+    <option name="width" value="1376" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -308,7 +203,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="ter&#9;null&#9;null" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -341,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.parse_and_download (1)">
+  <component name="RunManager" selected="Python.index">
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -477,20 +372,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="counting_coins" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gradients&amp;edge_detection" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pokedex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradients&amp;edge_detection/counting_coins.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pokedex/index.py" />
+      <option name="PARAMETERS" value="--sprites sprites --index index.cpickle" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
@@ -547,18 +442,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.auto_canny" />
-      <item index="1" class="java.lang.String" itemvalue="Python.counting_coins" />
-      <item index="2" class="java.lang.String" itemvalue="Python.real_time_object_detection" />
-      <item index="3" class="java.lang.String" itemvalue="Python.parse_and_download" />
-      <item index="4" class="java.lang.String" itemvalue="Python.parse_and_download (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.real_time_object_detection" />
+      <item index="2" class="java.lang.String" itemvalue="Python.parse_and_download" />
+      <item index="3" class="java.lang.String" itemvalue="Python.parse_and_download (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.index" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.parse_and_download (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.parse_and_download" />
-        <item index="2" class="java.lang.String" itemvalue="Python.real_time_object_detection" />
-        <item index="3" class="java.lang.String" itemvalue="Python.auto_canny" />
-        <item index="4" class="java.lang.String" itemvalue="Python.counting_coins" />
+        <item index="0" class="java.lang.String" itemvalue="Python.index" />
+        <item index="1" class="java.lang.String" itemvalue="Python.parse_and_download (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.parse_and_download" />
+        <item index="3" class="java.lang.String" itemvalue="Python.real_time_object_detection" />
+        <item index="4" class="java.lang.String" itemvalue="Python.auto_canny" />
       </list>
     </recent_temporary>
   </component>
@@ -569,14 +464,14 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-1288" y="171" width="1296" height="696" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20989583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20361991" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.246875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34072024" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39819005" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -600,32 +495,16 @@
           <line>1</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pokedex/index.py</url>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/image_search_engine/images/Mordor-002.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_search_engine/images/Mordor-003.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_search_engine/images/Mordor-005.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_search_engine/images/Rivendell-003.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image_search_engine/images/Rivendell-002.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -826,21 +705,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/cv2/cv2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144534">
-          <caret line="5570" column="4" lean-forward="false" selection-start-line="5570" selection-start-column="4" selection-end-line="5570" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradients&amp;edge_detection/auto_canny.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding>
-            <element signature="e#32#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -848,7 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1586">
           <caret line="65" column="33" lean-forward="false" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,9 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#201#219#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,7 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="1346" column="8" lean-forward="false" selection-start-line="1346" selection-start-column="8" selection-end-line="1346" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -890,23 +751,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="97" column="53" lean-forward="false" selection-start-line="97" selection-start-column="53" selection-end-line="97" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pokedex/pokedex-scrape/parse_and_download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pokedex/pokedex-scrape/parse_and_download.py" />
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/bs4/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2080">
           <caret line="99" column="37" lean-forward="true" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,31 +766,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pokedex/scrape/parse_and_download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pokedex/scrape/parse_and_download.py" />
     <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="0">
           <caret line="339" column="4" lean-forward="false" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/argparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1397">
+          <caret line="1302" column="8" lean-forward="false" selection-start-line="1302" selection-start-column="8" selection-end-line="1302" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pokedex/descriptor/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pokedex/descriptor/zernikemoments.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pokedex/parse_and_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/cv2/cv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4679" column="4" lean-forward="false" selection-start-line="4679" selection-start-column="4" selection-end-line="4679" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pokedex/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
