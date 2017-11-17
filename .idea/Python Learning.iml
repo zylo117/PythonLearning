@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/pokedex/pokedex-scrape/sprites" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/pokedex/descriptor" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/pokedex/sprites" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pokedex/queries" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
