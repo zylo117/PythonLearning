@@ -1,5 +1,6 @@
 # import the necessary package
-from scipy.spatial import  distance as dist
+from scipy.spatial import distance as dist
+
 
 class Searcher:
     def __init__(self, index):
@@ -8,7 +9,7 @@ class Searcher:
 
     def search(self, queryFeatures):
         # initialize our dictionary of results
-        results = []
+        results = {}
 
         # loop over the images in our results
         for (k, features) in self.index.items():

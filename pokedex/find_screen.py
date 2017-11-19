@@ -121,6 +121,6 @@ cv2.imshow("Crop", crop)
 cv2.waitKey()
 
 # save the cropped image to file
-cv2.imwrite("cropped.png", crop)
+cv2.imwrite(".\cropped.png", crop)
 
 # show our images
