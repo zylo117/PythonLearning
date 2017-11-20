@@ -19,6 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/pokedex/sprites" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/pokedex/queries" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/k_means" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/color_transfer-master" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
