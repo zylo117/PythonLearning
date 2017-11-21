@@ -22,6 +22,8 @@
       <sourceFolder url="file://$MODULE_DIR$/color_transfer-master" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/color_detector" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/skin_detector" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/image_transform" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/doc_scanner" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
