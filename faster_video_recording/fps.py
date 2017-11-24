@@ -1,5 +1,6 @@
 import datetime
 
+
 class FPS:
     def __init__(self):
         # store the start time, end time, and total number of framws that were examined between the start and end intervals
@@ -26,9 +27,9 @@ class FPS:
 
     def fps(self):
         # compute the (approximate) frames per second
-        return  self._numFrames / self.elapsed()
+        return self._numFrames / self.elapsed()
 
     def current_fps(self):
         self._end = datetime.datetime.now()
         self.elapsed = (self._end - self._start).total_seconds()
-        return  self._numFrames / self.elapsed()
+        return self._numFrames / self.elapsed()

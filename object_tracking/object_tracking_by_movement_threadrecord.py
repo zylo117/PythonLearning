@@ -4,7 +4,7 @@ import argparse
 import imutils
 from imutils.video import WebcamVideoStream
 import cv2
-from fps import FPS
+from imutils.video import FPS
 import datetime
 import time
 

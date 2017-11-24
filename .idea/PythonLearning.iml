@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/color_detector" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/color_histograms" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/color_transfer-master" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deep_learning_cv" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/doc_scanner" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/faster_video_recording" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gradients&amp;edge_detection" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/image_search_engine" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/image_transform" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/k_means" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/motion_detector" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/object_tracking" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pokedex" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/skin_detector" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Thresholding" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
+</module>
