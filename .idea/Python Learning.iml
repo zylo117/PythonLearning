@@ -26,6 +26,7 @@
       <sourceFolder url="file://$MODULE_DIR$/doc_scanner" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/faster_video_recording" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/object_tracking" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/motion_detector" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

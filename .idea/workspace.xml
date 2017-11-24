@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3abadc-b4d2-4c45-af02-ecd1c084dfe2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object_tracking/object_tracking_by_movement_threadrecord.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py2exe.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Python Learning.iml" afterPath="$PROJECT_DIR$/.idea/Python Learning.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/deep_learning_cv/obiect_detectioin/__init__.py" afterPath="$PROJECT_DIR$/deep_learning_cv/obiect_detection/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/deep_learning_cv/obiect_detectioin/real-time/MobileNetSSD_deploy.caffemodel" afterPath="$PROJECT_DIR$/deep_learning_cv/obiect_detection/real-time/MobileNetSSD_deploy.caffemodel" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/deep_learning_cv/obiect_detectioin/real-time/MobileNetSSD_deploy.prototxt.txt" afterPath="$PROJECT_DIR$/deep_learning_cv/obiect_detection/real-time/MobileNetSSD_deploy.prototxt.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/deep_learning_cv/obiect_detectioin/real-time/__init__.py" afterPath="$PROJECT_DIR$/deep_learning_cv/obiect_detection/real-time/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/deep_learning_cv/obiect_detectioin/real-time/real_time_object_detection.py" afterPath="$PROJECT_DIR$/deep_learning_cv/obiect_detection/real-time/real_time_object_detection.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/deep_learning_cv/obiect_detectioin/static/MobileNetSSD_deploy.caffemodel" afterPath="$PROJECT_DIR$/deep_learning_cv/obiect_detection/static/MobileNetSSD_deploy.caffemodel" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/deep_learning_cv/obiect_detectioin/static/MobileNetSSD_deploy.prototxt" afterPath="$PROJECT_DIR$/deep_learning_cv/obiect_detection/static/MobileNetSSD_deploy.prototxt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/deep_learning_cv/obiect_detectioin/static/__init__.py" afterPath="$PROJECT_DIR$/deep_learning_cv/obiect_detection/static/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/deep_learning_cv/obiect_detectioin/static/deep_learning_object_detection.py" afterPath="$PROJECT_DIR$/deep_learning_cv/obiect_detection/static/deep_learning_object_detection.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/deep_learning_cv/obiect_detectioin/static/images/example_01.jpg" afterPath="$PROJECT_DIR$/deep_learning_cv/obiect_detection/static/images/example_01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/deep_learning_cv/obiect_detectioin/static/images/example_02.jpg" afterPath="$PROJECT_DIR$/deep_learning_cv/obiect_detection/static/images/example_02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/deep_learning_cv/obiect_detectioin/static/images/example_03.jpg" afterPath="$PROJECT_DIR$/deep_learning_cv/obiect_detection/static/images/example_03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/deep_learning_cv/obiect_detectioin/static/images/example_04.jpg" afterPath="$PROJECT_DIR$/deep_learning_cv/obiect_detection/static/images/example_04.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/deep_learning_cv/obiect_detectioin/static/images/example_05.jpg" afterPath="$PROJECT_DIR$/deep_learning_cv/obiect_detection/static/images/example_05.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/deep_learning_cv/obiect_detectioin/static/images/example_06.jpg" afterPath="$PROJECT_DIR$/deep_learning_cv/obiect_detection/static/images/example_06.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/deep_learning_cv/obiect_detectioin/static/images/hero.jpg" afterPath="$PROJECT_DIR$/deep_learning_cv/obiect_detection/static/images/hero.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/object_tracking/object_tracking_by_movement_threadrecord.py" afterPath="$PROJECT_DIR$/object_tracking/object_tracking_by_movement_threadrecord.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,7 +19,7 @@
       <file leaf-file-name="read_webcam_slow.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/faster_video_recording/for_webcam/read_webcam_slow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="360">
               <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding />
             </state>
@@ -44,7 +29,7 @@
       <file leaf-file-name="read_frames_fast.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/faster_video_recording/for_video_file/read_frames_fast.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
+            <state relative-caret-position="180">
               <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
               <folding>
                 <element signature="e#32#73#0" expanded="true" />
@@ -56,8 +41,18 @@
       <file leaf-file-name="read_webcam_fast" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/faster_video_recording/for_webcam/read_webcam_fast">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
-              <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+            <state relative-caret-position="18">
+              <caret line="1" column="39" lean-forward="false" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cv2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/cv2/cv2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36792">
+              <caret line="2055" column="4" lean-forward="false" selection-start-line="2055" selection-start-column="4" selection-end-line="2055" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -66,8 +61,8 @@
       <file leaf-file-name="read_frames_slow.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/faster_video_recording/for_video_file/read_frames_slow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            <state relative-caret-position="0">
+              <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -76,8 +71,8 @@
       <file leaf-file-name="ball_tracking_by_color.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/object_tracking/ball_tracking_by_color.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+            <state relative-caret-position="1638">
+              <caret line="91" column="30" lean-forward="false" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -85,13 +80,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="object_tracking_by_movement_threadrecord.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="object_tracking_by_movement_threadrecord.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/object_tracking/object_tracking_by_movement_threadrecord.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="62" column="47" lean-forward="false" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+            <state relative-caret-position="280">
+              <caret line="76" column="43" lean-forward="false" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="py2exe.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/py2exe.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="motion_detector.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/motion_detector/main/motion_detector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="936">
+              <caret line="57" column="4" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="51" />
+              <folding>
+                <element signature="e#11#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,32 +117,10 @@
       <file leaf-file-name="ball_tracking_by_color_threadrecord.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/object_tracking/ball_tracking_by_color_threadrecord.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+            <state relative-caret-position="1746">
+              <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faster_video_recording/fps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="multithreading_webcam.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faster_video_recording/multithreading_webcam.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,8 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/color-histograms/histograms.py" />
-        <option value="$PROJECT_DIR$/image_search_engine/pyimagesearch/rgbhistogram.py" />
         <option value="$PROJECT_DIR$/image_search_engine/index.py" />
         <option value="$PROJECT_DIR$/image_search_engine/pyimagesearch/searcher.py" />
         <option value="$PROJECT_DIR$/image_search_engine/search_external.py" />
@@ -204,7 +197,9 @@
         <option value="$PROJECT_DIR$/faster_video_recording/fps.py" />
         <option value="$PROJECT_DIR$/object_tracking/ball_tracking_by_color.py" />
         <option value="$PROJECT_DIR$/object_tracking/ball_tracking_by_color_threadrecord.py" />
+        <option value="$PROJECT_DIR$/motion_detector/main/motion_detector.py" />
         <option value="$PROJECT_DIR$/object_tracking/object_tracking_by_movement_threadrecord.py" />
+        <option value="$PROJECT_DIR$/py2exe.py" />
       </list>
     </option>
   </component>
@@ -261,28 +256,6 @@
               <item name="Python Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_learning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Python Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="faster_video_recording" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="faster_video_recording" type="462c0819:PsiDirectoryNode" />
-              <item name="for_video_file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="faster_video_recording" type="462c0819:PsiDirectoryNode" />
-              <item name="for_webcam" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="object_tracking" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -291,7 +264,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/color_transfer-master/__init__.py" />
     <property name="SearchEverywhereHistoryKey" value="ter&#9;null&#9;null" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -324,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ball_tracking_by_color">
+  <component name="RunManager" selected="Python.object_tracking_by_movement_threadrecord">
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -477,6 +450,23 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="motion_detector" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/motion_detector/main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python Learning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/motion_detector/main/motion_detector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="object_tracking_by_movement_threadrecord" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -511,37 +501,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="read_webcam_fast (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/faster_video_recording/for_webcam" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/faster_video_recording/for_webcam/read_webcam_fast" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.read_webcam_fast (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ball_tracking_by_color" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ball_tracking_by_color_threadrecord" />
-      <item index="3" class="java.lang.String" itemvalue="Python.read_frames_slow" />
-      <item index="4" class="java.lang.String" itemvalue="Python.object_tracking_by_movement_threadrecord" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ball_tracking_by_color" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ball_tracking_by_color_threadrecord" />
+      <item index="2" class="java.lang.String" itemvalue="Python.read_frames_slow" />
+      <item index="3" class="java.lang.String" itemvalue="Python.object_tracking_by_movement_threadrecord" />
+      <item index="4" class="java.lang.String" itemvalue="Python.motion_detector" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ball_tracking_by_color" />
-        <item index="1" class="java.lang.String" itemvalue="Python.object_tracking_by_movement_threadrecord" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ball_tracking_by_color_threadrecord" />
-        <item index="3" class="java.lang.String" itemvalue="Python.read_frames_slow" />
-        <item index="4" class="java.lang.String" itemvalue="Python.read_webcam_fast (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.object_tracking_by_movement_threadrecord" />
+        <item index="1" class="java.lang.String" itemvalue="Python.motion_detector" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ball_tracking_by_color" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ball_tracking_by_color_threadrecord" />
+        <item index="4" class="java.lang.String" itemvalue="Python.read_frames_slow" />
       </list>
     </recent_temporary>
   </component>
@@ -556,9 +529,9 @@
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20147058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27444795" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34072024" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27444795" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39747635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -602,14 +575,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pokedex/pokedex-scrape/parse_and_download.py" />
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/bs4/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2080">
-          <caret line="99" column="37" lean-forward="true" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deep_learning_cv/classification/deep_learning_with_opencv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -751,9 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding>
-            <element signature="e#32#88#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,9 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -779,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3798">
           <caret line="221" column="4" lean-forward="false" selection-start-line="221" selection-start-column="4" selection-end-line="221" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2142">
           <caret line="123" column="15" lean-forward="false" selection-start-line="123" selection-start-column="15" selection-end-line="123" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4158">
           <caret line="239" column="8" lean-forward="false" selection-start-line="239" selection-start-column="8" selection-end-line="239" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,9 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1062">
           <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#58#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -813,9 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -823,7 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
           <caret line="84" column="8" lean-forward="false" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,9 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#32#70#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -841,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,9 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="e#32#60#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="478" column="8" lean-forward="false" selection-start-line="478" selection-start-column="8" selection-end-line="478" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-288">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,7 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -891,29 +829,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="5121" column="8" lean-forward="false" selection-start-line="5121" selection-start-column="8" selection-end-line="5121" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/cv2/cv2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="8629" column="29" lean-forward="true" selection-start-line="8629" selection-start-column="21" selection-end-line="8629" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/faster_video_recording/fps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/faster_video_recording/multithreading_webcam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="594">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -923,8 +852,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/object_tracking/ball_tracking_by_color_threadrecord.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        <state relative-caret-position="1746">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -935,7 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-311">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -943,29 +871,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-149">
           <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_video_recording/for_webcam/read_webcam_slow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_video_recording/for_webcam/read_webcam_fast">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="39" lean-forward="false" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/faster_video_recording/for_video_file/read_frames_slow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="0">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faster_video_recording/for_webcam/read_webcam_slow.py">
+    <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/-1120166012/cv2/cv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="36792">
+          <caret line="2055" column="4" lean-forward="false" selection-start-line="2055" selection-start-column="4" selection-end-line="2055" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object_tracking/ball_tracking_by_color.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="91" column="30" lean-forward="false" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/faster_video_recording/for_video_file/read_frames_fast.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
+        <state relative-caret-position="180">
           <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
           <folding>
             <element signature="e#32#73#0" expanded="true" />
@@ -973,31 +926,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faster_video_recording/for_webcam/read_webcam_fast">
+    <entry file="file://$PROJECT_DIR$/motion_detector/main/motion_detector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object_tracking/ball_tracking_by_color.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+        <state relative-caret-position="936">
+          <caret line="57" column="4" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="51" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#11#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/object_tracking/object_tracking_by_movement_threadrecord.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="62" column="47" lean-forward="false" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+        <state relative-caret-position="280">
+          <caret line="76" column="43" lean-forward="false" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py2exe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

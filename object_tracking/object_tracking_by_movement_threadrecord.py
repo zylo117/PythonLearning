@@ -10,6 +10,7 @@ import time
 
 ap = argparse.ArgumentParser()
 ap.add_argument("-v", "--video", help="path to the (optional) video file")
+ap.add_argument("-t", "--have_trail", type=bool, default=False, help="Whether show trail")
 ap.add_argument("-b", "--buffer", type=int, default=64, help="max buffer size")
 args = vars(ap.parse_args())
 
@@ -44,20 +45,33 @@ while True:
         break
 
     # resize the frame, blur it, and convert it to the HSV color space
-    frame = imutils.resize(frame, width=600)
+    frame = imutils.resize(frame, width=400)
+    blurred = cv2.GaussianBlur(frame, (11, 11), 0)
 
     if fps._numFrames / 4 % 2 == 0:
-        blurred_even = cv2.GaussianBlur(frame, (11, 11), 0)
-        blurred_even = cv2.cvtColor(blurred_even, cv2.COLOR_BGR2GRAY)
+        blurred_even = cv2.cvtColor(blurred, cv2.COLOR_BGR2GRAY)
         cv2.threshold(blurred_even, 0, 255, cv2.THRESH_OTSU + cv2.THRESH_BINARY_INV, blurred_even)
+        # cv2.imshow("BWOld", blurred_even)
 
     elif fps._numFrames / 4 % 2 == 1:
-        blurred_odd = cv2.GaussianBlur(frame, (11, 11), 0)
-        blurred_odd = cv2.cvtColor(blurred_odd, cv2.COLOR_BGR2GRAY)
+        blurred_odd = cv2.cvtColor(blurred, cv2.COLOR_BGR2GRAY)
         cv2.threshold(blurred_odd, 0, 255, cv2.THRESH_OTSU + cv2.THRESH_BINARY_INV, blurred_odd)
+        # cv2.imshow("BWNew", blurred_odd)
 
     if fps._numFrames > 4:
-        delta = blurred_odd - blurred_even
+        # delta = blurred_odd - blurred_even
+        delta = cv2.absdiff(blurred_odd, blurred_even)
+        cv2.imshow("Delta", delta)
+
+        delta = cv2.medianBlur(delta, 3)
+        cv2.imshow("MedFil", delta)
+
+        delta = cv2.dilate(delta, None, iterations=2)
+        cv2.imshow("Dilation", delta)
+
+        delta = cv2.erode(delta, None, iterations=2)
+        cv2.imshow("Erosion", delta)
+        # cv2.waitKey()
         # hsv = cv2.cvtColor(blurred, cv2.COLOR_BGR2HSV)
 
         # construct a mask for the color "green", then perform a series of dilations and erosions to remove any small blobs left in the mask
@@ -88,15 +102,16 @@ while True:
         # update the points queue
         pts.appendleft(center)
 
-        # loop over the set of tracked points
-        for i in range(1, len(pts)):
-            # if either of the tracked points are None, ignore them
-            if pts[i - 1] is None or pts[i] is None:
-                continue
+        if args["have_trail"]:
+            # loop over the set of tracked points
+            for i in range(1, len(pts)):
+                # if either of the tracked points are None, ignore them
+                if pts[i - 1] is None or pts[i] is None:
+                    continue
 
-            # otherwise, compute the thickness of the line and draw the connecting lines
-            thickness = int(np.sqrt(args["buffer"] / float(i + 1)) * 2.5)
-            cv2.line(frame, pts[i - 1], pts[i], (0, 0, 255), thickness)
+                # otherwise, compute the thickness of the line and draw the connecting lines
+                thickness = int(np.sqrt(args["buffer"] / float(i + 1)) * 2.5)
+                cv2.line(frame, pts[i - 1], pts[i], (0, 0, 255), thickness)
 
         if fps._numFrames % 2 == 1:
             # 帧率计数
