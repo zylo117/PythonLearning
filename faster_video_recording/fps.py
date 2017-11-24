@@ -14,7 +14,7 @@ class FPS:
 
     def stop(self):
         # stop the timer
-        self._stop = datetime.datetime.now()
+        self._end = datetime.datetime.now()
 
     def update(self):
         # increment the total number of frame examined during the start and end intervals
@@ -28,3 +28,7 @@ class FPS:
         # compute the (approximate) frames per second
         return  self._numFrames / self.elapsed()
 
+    def current_fps(self):
+        self._end = datetime.datetime.now()
+        self.elapsed = (self._end - self._start).total_seconds()
+        return  self._numFrames / self.elapsed()
