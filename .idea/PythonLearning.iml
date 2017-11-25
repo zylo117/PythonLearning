@@ -19,7 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/skin_detector" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Thresholding" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.6.2 (C:\Users\zylo1\AppData\Local\Programs\Python\Python36\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
