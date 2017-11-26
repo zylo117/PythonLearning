@@ -12,6 +12,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("-v", "--video", help="path to the (optional) video file")
 ap.add_argument("-t", "--have_trail", type=bool, default=False, help="Whether show trail")
 ap.add_argument("-b", "--buffer", type=int, default=64, help="max buffer size")
+ap.add_argument("-d", "--debug", type=bool, default=False, help="Whether show debug windows")
 args = vars(ap.parse_args())
 
 pts = deque(maxlen=args["buffer"])
@@ -46,31 +47,35 @@ while True:
 
     # resize the frame, blur it, and convert it to the HSV color space
     frame = imutils.resize(frame, width=400)
-    blurred = cv2.GaussianBlur(frame, (11, 11), 0)
+    blurred = cv2.GaussianBlur(frame, (7, 7), 0)
 
-    if fps._numFrames / 4 % 2 == 0:
+    if fps._numFrames % 2 == 0:
         blurred_even = cv2.cvtColor(blurred, cv2.COLOR_BGR2GRAY)
         cv2.threshold(blurred_even, 0, 255, cv2.THRESH_OTSU + cv2.THRESH_BINARY_INV, blurred_even)
         # cv2.imshow("BWOld", blurred_even)
 
-    elif fps._numFrames / 4 % 2 == 1:
+    elif fps._numFrames % 2 == 1:
         blurred_odd = cv2.cvtColor(blurred, cv2.COLOR_BGR2GRAY)
         cv2.threshold(blurred_odd, 0, 255, cv2.THRESH_OTSU + cv2.THRESH_BINARY_INV, blurred_odd)
         # cv2.imshow("BWNew", blurred_odd)
 
-    if fps._numFrames > 4:
+    if fps._numFrames > 1:
         # delta = blurred_odd - blurred_even
         delta = cv2.absdiff(blurred_odd, blurred_even)
-        cv2.imshow("Delta", delta)
+        if args["debug"]:
+            cv2.imshow("Delta", delta)
 
         delta = cv2.medianBlur(delta, 3)
-        cv2.imshow("MedFil", delta)
+        if args["debug"]:
+            cv2.imshow("MedFil", delta)
 
         delta = cv2.dilate(delta, None, iterations=2)
-        cv2.imshow("Dilation", delta)
+        if args["debug"]:
+            cv2.imshow("Dilation", delta)
 
         delta = cv2.erode(delta, None, iterations=2)
-        cv2.imshow("Erosion", delta)
+        if args["debug"]:
+            cv2.imshow("Erosion", delta)
         # cv2.waitKey()
         # hsv = cv2.cvtColor(blurred, cv2.COLOR_BGR2HSV)
 
