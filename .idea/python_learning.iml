@@ -7,7 +7,6 @@
       <sourceFolder url="file://$MODULE_DIR$/color_transfer-master" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/deep_learning_cv" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/doc_scanner" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/faster_video_recording" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/gradients&amp;edge_detection" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/image_search_engine" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/image_transform" isTestSource="false" />
@@ -17,6 +16,8 @@
       <sourceFolder url="file://$MODULE_DIR$/pokedex" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/skin_detector" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/thresholding" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/long_exposure" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/faster_video_recording" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6.2 (C:\Program Files\Python36\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

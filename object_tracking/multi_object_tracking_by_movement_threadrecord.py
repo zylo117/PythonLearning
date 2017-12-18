@@ -47,16 +47,18 @@ while True:
 
     # resize the frame, blur it, and convert it to the HSV color space
     frame = imutils.resize(frame, width=400)
-    blurred = cv2.GaussianBlur(frame, (7, 7), 0)
+    blurred = cv2.GaussianBlur(frame, (11, 11), 0)
 
     if fps._numFrames % 2 == 0:
-        blurred_even = cv2.cvtColor(blurred, cv2.COLOR_BGR2GRAY)
-        cv2.threshold(blurred_even, 0, 255, cv2.THRESH_OTSU + cv2.THRESH_BINARY_INV, blurred_even)
+        # blurred_even = cv2.cvtColor(blurred, cv2.COLOR_BGR2GRAY)
+        blurred_even = blurred
+        # cv2.threshold(blurred_even, 0, 255, cv2.THRESH_OTSU + cv2.THRESH_BINARY_INV, blurred_even)
         # cv2.imshow("BWOld", blurred_even)
 
     elif fps._numFrames % 2 == 1:
-        blurred_odd = cv2.cvtColor(blurred, cv2.COLOR_BGR2GRAY)
-        cv2.threshold(blurred_odd, 0, 255, cv2.THRESH_OTSU + cv2.THRESH_BINARY_INV, blurred_odd)
+        # blurred_odd = cv2.cvtColor(blurred, cv2.COLOR_BGR2GRAY)
+        blurred_odd = blurred
+        # cv2.threshold(blurred_odd, 0, 255, cv2.THRESH_OTSU + cv2.THRESH_BINARY_INV, blurred_odd)
         # cv2.imshow("BWNew", blurred_odd)
 
     if fps._numFrames > 1:
@@ -64,6 +66,16 @@ while True:
         delta = cv2.absdiff(blurred_odd, blurred_even)
         if args["debug"]:
             cv2.imshow("Delta", delta)
+
+        delta = cv2.cvtColor(delta, cv2.COLOR_BGR2GRAY)
+
+        # if len(delta[delta < 1]) > delta.shape[0] * delta.shape[1] * 0.6:
+        #     continue
+
+        if cv2.threshold(delta, 0, 255, cv2.THRESH_OTSU, delta)[0] < 5:
+            delta = np.zeros(delta.shape, dtype=np.uint8)
+        if args["debug"]:
+            cv2.imshow("Thresh", delta)
 
         delta = cv2.medianBlur(delta, 3)
         if args["debug"]:
@@ -99,7 +111,7 @@ while True:
                     center = (int(M["m10"] / M["m00"]), int(M["m01"] / M["m00"]))
 
                 # onlt proceed if the radius meets a minimum size
-                if radius > 10:
+                if radius > 5:
                     # draw the circle and centroid on the frame, then update the list of tracked points
                     cv2.circle(frame, (int(x), int(y)), int(radius), (0, 255, 255), 2)
                     cv2.circle(frame, center, 5, (0, 0, 255), -1)

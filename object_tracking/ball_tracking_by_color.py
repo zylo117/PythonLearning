@@ -3,7 +3,7 @@ import numpy as np
 import argparse
 import imutils
 import cv2
-from fps import FPS
+from imutils.video.fps import FPS
 import datetime
 
 ap = argparse.ArgumentParser()
