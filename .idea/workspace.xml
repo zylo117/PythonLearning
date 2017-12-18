@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3abadc-b4d2-4c45-af02-ecd1c084dfe2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/dlib_test/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dlib_test/cnn_face_detector.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dlib_test/mmod_human_face_detector.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/faical_recognition/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/faical_recognition/detect_face_parts.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/faical_recognition/eye_aspect_ratio.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/faical_recognition/facial_landmarks.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/faical_recognition/video_facial_landmarks.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/long_exposure/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/long_exposure/long_exposure.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_learning.iml" afterPath="$PROJECT_DIR$/.idea/python_learning.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/object_tracking/ball_tracking_by_color.py" afterPath="$PROJECT_DIR$/object_tracking/ball_tracking_by_color.py" />
-      <change beforePath="$PROJECT_DIR$/object_tracking/multi_object_tracking_by_movement_threadrecord.py" afterPath="$PROJECT_DIR$/object_tracking/multi_object_tracking_by_movement_threadrecord.py" />
+      <change beforePath="$PROJECT_DIR$/faical_recognition/eye_aspect_ratio.py" afterPath="$PROJECT_DIR$/faical_recognition/eye_aspect_ratio.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,9 +84,11 @@
       <file leaf-file-name="eye_aspect_ratio.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/faical_recognition/eye_aspect_ratio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="369">
+              <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+              <folding>
+                <element signature="e#32#74#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -964,9 +953,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/faical_recognition/eye_aspect_ratio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="369">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding>
+            <element signature="e#32#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
