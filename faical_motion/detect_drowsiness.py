@@ -1,40 +1,36 @@
 # import the necessary packages
 from scipy.spatial import distance as dist
-from imutils.video import FileVideoStream
 from imutils.video import VideoStream
-from imutils import face_utils
 from imutils.video import FPS
-import datetime
+from imutils import face_utils
+from threading import Thread
 import numpy as np
+import time
+import playsound
 import argparse
 import imutils
-import time
+import datetime
 import dlib
 import cv2
 
 
+def sound_alarm(path):
+    # play an alarm sound
+    playsound.playsound(path)
+
+
 def eye_aspect_ratio(eye):
-    """
-    每只眼有6个点，
-        p1  p2
-    p0          p3
-        p5  p4
-
-    d(a, b)为两点距离
-    ear_aspect_ratio = d(p1, p5) / d(p3, p0) + d(p2, p4) / d(p3, p0)
-
-    这样可以保证眼睛两角都闭上的时候才判断为闭眼
-    """
-
-    # compute the euclidean distances between the two sets of vertical eye landmarks (x, y)-coordinates
+    # compute the euclidean distances between the two sets of
+    # vertical eye landmarks (x, y)-coordinates
     A = dist.euclidean(eye[1], eye[5])
     B = dist.euclidean(eye[2], eye[4])
 
-    # compute the euclidean distance between the horizontal eye landmark (x, y)-coordinates
+    # compute the euclidean distance between the horizontal
+    # eye landmark (x, y)-coordinates
     C = dist.euclidean(eye[0], eye[3])
 
     # compute the eye aspect ratio
-    ear = (A + B) / (2. * C)
+    ear = (A + B) / (2.0 * C)
 
     # return the eye aspect ratio
     return ear
@@ -44,6 +40,8 @@ def eye_aspect_ratio(eye):
 ap = argparse.ArgumentParser()
 ap.add_argument("-p", "--shape-predictor", required=True,
                 help="path to facial landmark predictor")
+ap.add_argument("-a", "--alarm", type=str, default="",
+                help="path alarm .WAV file")
 ap.add_argument("-v", "--video", type=str, default=0,
                 help="path to input video file")
 args = vars(ap.parse_args())
@@ -57,6 +55,7 @@ EYE_AR_CONSEC_FRAMES = 2
 # initialize the frame counters and the total number of blinks
 COUNTER = 0
 TOTAL = 0
+ALARM_ON = False
 
 # initialize dlib's face detector (HOG-based) and then create
 # the facial landmark predictor
@@ -71,6 +70,7 @@ predictor = dlib.shape_predictor(args["shape_predictor"])
 
 # if a video path was not supplied, grab the reference to the webcam
 camera = VideoStream(src=args["video"]).start()
+time.sleep(1.0)
 
 fps = FPS().start()
 current_fps = 0
@@ -128,6 +128,26 @@ while True:
         if ear < EYE_AR_THRESH:
             COUNTER += 1
 
+            # if the eyes were closed for a sufficient number of
+            # then sound the alarm
+            if COUNTER >= EYE_AR_CONSEC_FRAMES:
+                # if the alarm is not on, turn it on
+                if not ALARM_ON:
+                    ALARM_ON = True
+
+                    # check to see if an alarm file was supplied,
+                    # and if so, start a thread to have the alarm
+                    # sound played in the background
+                    if args["alarm"] != "":
+                        t = Thread(target=sound_alarm(args["alarm"]))
+
+                        t.daemon = True
+                        t.start()
+
+                # draw an alarm on the frame
+                cv2.putText(frame, "DROWSINESS ALERT!", (50, 100),
+                            cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+
         # check to see if the eye aspect ratio is below the blink
         # threshold, and if so, increment the blink frame counter
         else:
@@ -138,11 +158,12 @@ while True:
 
             # reset the eye frame counter
             COUNTER = 0
+            ALARM_ON = False
 
         # draw the total number of blinks on the frame along with
         # the computed eye aspect ratio for the frame
         cv2.putText(frame, "Blinks: {}".format(TOTAL), (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
-        cv2.putText(frame, "EAR: {:.2f}".format(ear), (300, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+        cv2.putText(frame, "EAR: {:.2f}".format(ear), (280, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
 
     # 出图
     # 播放帧
