@@ -14,16 +14,16 @@ ap = argparse.ArgumentParser()
 ap.add_argument("-p", "--shape-predictor", required=True, help="path to facial landmark predictor")
 args = vars(ap.parse_args())
 
+# initialize dlib's face detector (HOG-based) and then create
+# the facial landmark predictor
+detector = dlib.get_frontal_face_detector()
+predictor = dlib.shape_predictor(args["shape_predictor"])
+
 # if a video path was not supplied, grab the reference to the webcam
 camera = VideoStream(src=0).start()
 
 fps = FPS().start()
 current_fps = 0
-
-# initialize dlib's face detector (HOG-based) and then create
-# the facial landmark predictor
-detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor(args["shape_predictor"])
 
 # keep looping
 while True:
